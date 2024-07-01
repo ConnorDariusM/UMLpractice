@@ -1,9 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T18:43:27.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="f2paPepp-u6zduxZLZPO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T18:48:03.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="eYV3w1tVXt8fKMyBqrLR" version="24.6.4" type="github">
   <diagram name="Page-1" id="L44xJOwaPrE3bIe5Eiis">
-    <mxGraphModel>
+    <mxGraphModel dx="746" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="Ei4I9Hg9-e1iZ-SWn0L6-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ei4I9Hg9-e1iZ-SWn0L6-3" target="Ei4I9Hg9-e1iZ-SWn0L6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-3" value="Input UAS Parameters" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ei4I9Hg9-e1iZ-SWn0L6-4" target="Ei4I9Hg9-e1iZ-SWn0L6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-4" value="Input Sensor Parameters" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ei4I9Hg9-e1iZ-SWn0L6-5" target="Ei4I9Hg9-e1iZ-SWn0L6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-5" value="Input Node Parameters" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-6" value="Begin Simulation" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ei4I9Hg9-e1iZ-SWn0L6-10" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="90" width="200" height="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
