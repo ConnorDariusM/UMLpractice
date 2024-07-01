@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T20:04:07.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LEbR9NcyVG1elL_cwlf8" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T20:17:10.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="004afQxbYzibqWRRlexZ" version="24.6.4" type="github">
   <diagram name="Page-1" id="SM_NERUJ3dnt5lTOhVBZ">
-    <mxGraphModel dx="481" dy="274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2662" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,6 +40,27 @@
         </mxCell>
         <mxCell id="j_G3NL1udsLklxTixIO5-18" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ SendData(): Void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="j_G3NL1udsLklxTixIO5-15">
           <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j_G3NL1udsLklxTixIO5-24" value="UAS" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="40" width="270" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="j_G3NL1udsLklxTixIO5-25" value="+ maxSpeed: double: 25&lt;div&gt;+ maxSoundPressureLevel: double: 88.5&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ maxSPLDistance: double: 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ radarCrossSection: double: 0.26&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ radioFrequency1: double: 2400&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ transmitPower1: double: 20&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ antennaGain1: double: 2.5&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ radioFrequency2: double: 5800&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ transmitPower2: double: 20&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ antennaGain2: double: 3.2&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ ID: string: &quot;&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ currentSpeed: double: 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ soundPressureLevel: double: 0&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="j_G3NL1udsLklxTixIO5-24">
+          <mxGeometry y="26" width="270" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="j_G3NL1udsLklxTixIO5-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="j_G3NL1udsLklxTixIO5-24">
+          <mxGeometry y="230" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="j_G3NL1udsLklxTixIO5-27" value="+ getSoundLevel(type): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="j_G3NL1udsLklxTixIO5-24">
+          <mxGeometry y="238" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j_G3NL1udsLklxTixIO5-28" value="SensorData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="330" width="270" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="j_G3NL1udsLklxTixIO5-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ID: string: &quot;&quot;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ detected: boolean: false&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ currentSpeed: double: 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ soundPressureLevel: double: 0&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="j_G3NL1udsLklxTixIO5-28">
+          <mxGeometry y="26" width="270" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="j_G3NL1udsLklxTixIO5-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="j_G3NL1udsLklxTixIO5-28">
+          <mxGeometry y="230" width="270" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
